@@ -101,3 +101,13 @@ article header p {
 	font-size: 0.9em;
 	margin-bottom: 0.25em;
 }
+article .vimeo-video {
+	width: 640px;
+	height: 360px;
+}
+@media all and (max-width : 660px) {
+	article .vimeo-video {
+		width: 320px;
+		height: 180px;
+	}
+}
