@@ -92,13 +92,16 @@ a:hover {
 p {
 	margin: 0 0 1em;
 }
+article {
+  margin-bottom: 60px;
+}
 article header h2 {
 	font-size: 1.25em;
 	margin-bottom: 0.2em;
 }
 article header p {
 	color: #949494;
-	font-size: 0.835em;
+	font-size: 0.875em;
 	margin-bottom: 0.25em;
 }
 article .vimeo-video {
