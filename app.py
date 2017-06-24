@@ -22,9 +22,9 @@ def redirect_www_ssl():
         urlparts_list[1] = 'ericwaller.com'
         should_redirect = True
 
-    if os.environ.get("APP_ENV") == 'prod' and urlparts.scheme == 'http':
-        urlparts_list[0] = 'https'
-        should_redirect = True
+    # if os.environ.get("APP_ENV") == 'prod' and urlparts.scheme == 'http':
+    #     urlparts_list[0] = 'https'
+    #     should_redirect = True
 
     if should_redirect:
         return redirect(urlunparse(urlparts_list), code=301)
