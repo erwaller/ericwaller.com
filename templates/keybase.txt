@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/erwaller
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ericwaller.com
+  * I am erwaller (https://keybase.io/erwaller) on keybase.
+  * I have a public key ASBjpiE3fCZYdQRR54hglb8jF2mAaNYTXHFPv_Pz-FK0xQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012063a621377c2658750451e7886095bf2317698068d6135c714fbff3f3f852b4c50a",
+      "host": "keybase.io",
+      "kid": "012063a621377c2658750451e7886095bf2317698068d6135c714fbff3f3f852b4c50a",
+      "uid": "343c99a4023a2f37e992e295863bf319",
+      "username": "erwaller"
+    },
+    "service": {
+      "hostname": "ericwaller.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.20"
+  },
+  "ctime": 1505762945,
+  "expire_in": 504576000,
+  "merkle_root": {
+    "ctime": 1505762930,
+    "hash": "69d60a22d4e57844790fdc9cfc3f2eee981dcd82e0a27a98130918bf8619e51a7b6794fb04f5ad5ecf65a9e8e8f2d0f8c9aa6439c05e9bfc27d0e6e692ac36cc",
+    "seqno": 1398320
+  },
+  "prev": "31f5831b8c9497d8086881268d20faa682f5dbaeeb690748584f35ab1e0d38be",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgY6YhN3wmWHUEUeeIYJW/IxdpgGjWE1xxT7/z8/hStMUKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjNhNjIxMzc3YzI2NTg3NTA0NTFlNzg4NjA5NWJmMjMxNzY5ODA2OGQ2MTM1YzcxNGZiZmYzZjNmODUyYjRjNTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjNhNjIxMzc3YzI2NTg3NTA0NTFlNzg4NjA5NWJmMjMxNzY5ODA2OGQ2MTM1YzcxNGZiZmYzZjNmODUyYjRjNTBhIiwidWlkIjoiMzQzYzk5YTQwMjNhMmYzN2U5OTJlMjk1ODYzYmYzMTkiLCJ1c2VybmFtZSI6ImVyd2FsbGVyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJlcmljd2FsbGVyLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjIwIn0sImN0aW1lIjoxNTA1NzYyOTQ1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDU3NjI5MzAsImhhc2giOiI2OWQ2MGEyMmQ0ZTU3ODQ0NzkwZmRjOWNmYzNmMmVlZTk4MWRjZDgyZTBhMjdhOTgxMzA5MThiZjg2MTllNTFhN2I2Nzk0ZmIwNGY1YWQ1ZWNmNjVhOWU4ZThmMmQwZjhjOWFhNjQzOWMwNWU5YmZjMjdkMGU2ZTY5MmFjMzZjYyIsInNlcW5vIjoxMzk4MzIwfSwicHJldiI6IjMxZjU4MzFiOGM5NDk3ZDgwODY4ODEyNjhkMjBmYWE2ODJmNWRiYWVlYjY5MDc0ODU4NGYzNWFiMWUwZDM4YmUiLCJzZXFubyI6MTEsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA9q+q4xZLSyr4Vxz0lTKb1QJyW4NlIvTXXrL3U+jkeFYEYpjKxuzqOBOw4Y9PQJ3z18eb8Yj9QRpos0ymbK7vDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIABlUf/ZWiz98TV0iftrNGg3O6qe2TONPRDZHoEHXhLDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/erwaller
+
+==================================================================
