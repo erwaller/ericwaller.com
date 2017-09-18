@@ -37,7 +37,7 @@ def index():
 
 @app.route("/keybase.txt")
 def keybase():
-    return render_template("keybase.txt")
+    return render_template("keybase.txt"), 200, {'Content-Type': 'text/plain'}
 
 
 if __name__ == "__main__":
