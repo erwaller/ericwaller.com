@@ -36,7 +36,10 @@ a:link {-webkit-tap-highlight-color: #fcd700;}
 
 /*
   And the rest...
-*/
+ */
+/*
+  Colors: blue (#186BB0), green (#0DB873), midnight blue (#2A27BC), orange (#FF9C13)
+ */
 html {
   -webkit-font-smoothing: antialiased;
 }
@@ -116,4 +119,11 @@ article iframe {
     width: 320px;
     height: 180px;
   }
+}
+.flashes {
+  text-align: center;
+  background: #FF9C13;
+  color: #fff;
+  font-weight: bold;
+  line-height: 3em;
 }
