@@ -22,7 +22,17 @@ CLIENT_ID = os.environ.get("CLIENT_ID")
 CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 AUTHORIZE_URL = "https://seatgeek.com/oauth"
 API_BASE = "https://api.seatgeek.com/2"
-SCOPES = "offline_access,email,readwrite"
+SCOPES = "email,readwrite"
+
+
+class SGAccessTokenAuth(requests.auth.AuthBase):
+
+    def __init__(self, access_token=None):
+        self.access_token = access_token
+
+    def __call__(self, r):
+        r.headers["Authorization"] = "token {}".format(self.access_token)
+        return r
 
 
 @app.before_request
@@ -46,7 +56,14 @@ def redirect_www_ssl():
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    user = None
+    if "access_token" in session:
+        with requests.Session() as s:
+            s.auth = SGAccessTokenAuth(access_token=session["access_token"])
+            r = s.get(API_BASE + "/me")
+            app.logger.info(r.json())
+            user = r.json()
+    return render_template("index.html", user=user)
 
 
 @app.route("/api/connect")
