@@ -1,8 +1,23 @@
 {% extends "layout.html" %}
 
-{% block content %}
+{% block header %}
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+  {% endwith %}
   <header>
     <h1><a href="{{ url_for('index') }}">Hi, I'm Eric</a></h1>
     <p>I live in New York City where I work on <a href="https://seatgeek.com/">SeatGeek</a>.</p>
   </header>
+{% endblock %}
+
+{% block footer %}
+  <footer>
+      <a href="https://github.com/erwaller/ericwaller.com">Source on GitHub</a>
+  </footer>
 {% endblock %}

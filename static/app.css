@@ -85,6 +85,15 @@ body > header h1 a:hover {
 body > header p {
   margin: 0;
 }
+body > footer {
+  text-align: center;
+  color: #949494;
+  padding: 0 0 4em;
+  font-size: 0.875em;
+}
+body > footer a {
+  color: #949494;
+}
 a {
   color: #186CB0;
   text-decoration: none;
