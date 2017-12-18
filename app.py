@@ -20,7 +20,7 @@ app.secret_key = os.environ.get("APP_SECRET_KEY")
 
 CLIENT_ID = os.environ.get("CLIENT_ID")
 CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
-AUTHORIZE_URL = "https://seatgeek.com/oauth"
+AUTHORIZE_URL = "https://seatgeek.com/oauth2"
 API_BASE = "https://api.seatgeek.com/2"
 SCOPES = "email,readwrite"
 
