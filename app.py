@@ -62,7 +62,10 @@ def index():
             s.auth = SGAccessTokenAuth(access_token=session["access_token"])
             r = s.get(API_BASE + "/me")
             app.logger.info(r.json())
-            user = r.json()
+            if r.status_code == requests.codes.ok:
+                user = r.json()
+            else:
+                del session["access_token"]
     return render_template("index.html", user=user)
 
 
